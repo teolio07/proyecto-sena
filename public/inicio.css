@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    
+    
+
+}
+
+.container-top{
+    display: flex;
+    width: 100%;
+    height: ;
+    background-color: #1fb344;
+    transition: 2s;
+    padding-top: 271px;
+    align-items: flex-start;
+}
+
+
+.container-bottom{ 
+    display: flex;
+    margin-top: ;
+    width: 100%;
+    height: 30vh;
+    background-color: #292929;
+    transition: 2s;
+    
+    align-items: flex-end;
+    
+    
+   
+ 
+ }
+
+/*  .container-top:active{
+    transform: translate(0,-600px)
+}
+.container-bottom:hover{
+    transform: translate(0,600px)
+} */
+
+ 
+
+
+
+

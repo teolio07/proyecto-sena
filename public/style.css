@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    
+}
+.header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background: url("img/wave.svg");
+    background-repeat: no-repeat;
+
+}
+.nav{
+    width: 100%;
+    height: 100%;
+    
+    
+    display: flex;
+    position: static;
+    z-index: 100;
+    
+    
+}
+.nav-logo{
+    
+    
+    margin-right: 40px;
+}
+.nav-ul{
+ display: flex;
+ 
+ 
+
+    
+}
+.nav-ul-li{
+    margin: 10px;
+    
+}
+.seccion{
+    width: 100%;
+    height: 50px;
+    background-color: #00495c;
+}
+
+.section{
+    width: 100%;
+    height:1500px;
+    
+    background-color:rebeccapurple;
+
+}
+.container-informacion-uno{
+    width: 100%;
+    height: 500px;
+    background-color:#3498DB;
+    display:flex;
+}
+.container-article-uno{
+    width:70% ;
+    height: 100%;
+    
+}
+.container-catalogo{
+    width: 100%;
+    height: 400px;
+    background-color: blanchedalmond;
+    z-index: 5;
+    
+    
+
+    
+    
+}
+.container-lista-uno{
+    display: flex;
+    
+    
+    
+}
+    
+    
+
+
+.producto{
+    width: 200px;
+    height: 180px;
+    background-color: #00495c;
+    transition: all 1s;
+    z-index: 1;
+    
+    
+    
+    
+   
+    
+    
+    
+}
+.uno{
+    top: 600px;
+    position: absolute;
+    right: 100px;
+    background-image: ;
+}
+.dos{
+    top: 600px;
+    position: absolute;
+    right: 400px;
+    background-color: aqua;
+}
+.tres{
+    top: 600px;
+    position: absolute;
+    right: 700px;
+    background-color: aqua;
+}
+.cuatro{
+    top: 600px;
+    position: absolute;
+    right: 1000px;
+    background-color: aqua;
+}
+
+.producto:hover{
+    top: 580px;
+    width: 220px;
+    height: 220px;
+    background-color: #00495c;
+    
+}
+.container-informacion-dos{
+    width: 100%;
+    height: 500px;
+    background-color:;
+    display: flex;
+}
+.container-aside-dos{
+    width: 30%;
+    height: 100%;
+    background-color:#3498DB;
+}
+.container-article-dos{
+    width: 70%;
+    height: 100%;
+    background-color:#2C3E50;
+
+}
+.footer{
+    width: 100%;
+    height: 230px;
+    background-color:#00495c;
+}
